@@ -1,0 +1,123 @@
+body{
+width: 1920;
+height: 1080;
+background-color: #343a40;
+margin: 0%;
+}
+#divCabecalho{
+width: 100%;
+height: 60px;
+background-color: red;
+margin: 0%;
+}
+#spanCabecalho{
+    position: absolute;
+    font-size: 40px;
+    left: 10px;
+    top: 5px;
+}
+#spanDev{
+    position: absolute;
+    font-size: 42px;
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(0, 0, 0);
+    left: 370px;
+    top: 7px;
+    font-weight: bold;
+}
+#imgInsta{
+    position: absolute;
+    width: 75px;
+    height: 75px;
+    left: 1595px;
+    top: -7px;
+}
+#imgLinkedin{
+    position: absolute;
+    width: 85px;
+    height: 85px;
+    left: 1663px;
+    top: -13px;
+}
+#imgGithub{
+    position: absolute;
+    width: 62px;
+    height: 62px;
+    left: 1747px;
+    top: -2px;
+}
+#btnInstagram{
+    position: absolute;
+    left: 1610px;
+    top: 11px;
+    height: 42px;
+    width: 45px;
+    border: white;
+    background-color: rgba(0, 0, 0, 0);
+    cursor: pointer ;
+}
+#btnLinkedin{
+    position: absolute;
+    left: 1680px;
+    top: 8px;
+    height: 42px;
+    width: 50px;
+    border: none;
+    background-color: rgba(0, 0, 0, 0);
+    cursor: pointer ;
+}
+#btnGithub{
+    position: absolute;
+    left: 1752px;
+    top: 8px;
+    height: 42px;
+    width: 50px;
+    border: none;
+    background-color: rgba(0, 0, 0, 0);
+    cursor: pointer ;
+}
+#lateralEsquerda{
+    float: left;
+    background-color: seashell;
+    width: 60px;
+    height: 918px;
+}
+#lateralDireita{
+    float: right;
+    background-color: seashell;
+    width: 60px;
+    height: 918px;
+}
+#falandoSobre{
+position: absolute;
+left: 100px;
+top: 100px;
+width: 1280px;
+}
+#imgEuMesmo{
+position: absolute;
+width: 425px;
+height: 450px;
+border-radius: 25px;
+-webkit-box-shadow: 15px 15px rgba(255, 0, 0, 0.897);
+/** box-shadow: 10px 10px 5px snow; **/
+}
+#spanOla{
+    position: absolute;
+    font-size: 40px;
+    color: skyblue;
+    font-weight: bold;
+    left: 460px;
+    top: 100px;
+}
+#spanFalandoSobre{
+    position: absolute;
+    font-size: 25px;
+    color: skyblue;
+    left: 460px;
+    top: 150px;
+    width: 100%;
+}
+
+
+/** # - para id´s e .(ponto) para class
